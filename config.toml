@@ -1,4 +1,19 @@
-baseURL = "http://example.org/"
+baseURL = "https://lonelyplanit.github.io/"
+
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Lonely Plan it!"
 theme = "hugo-hello-programmer-theme"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+enableRobotsTXT = true
+
+hasCJKLanguage = true
+metaDataFormat = "yaml"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+googleAnalytics = "UA-170164315-1"
